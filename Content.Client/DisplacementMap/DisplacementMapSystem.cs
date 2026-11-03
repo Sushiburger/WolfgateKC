@@ -21,6 +21,19 @@ public sealed partial class DisplacementMapSystem : EntitySystem
             return false;
         }
 
+        // LoneStar start, displaced unshaded fix
+        var shaderOverride = data.ShaderOverride;
+        if (shaderOverride == "DisplacedDraw"
+            && sprite.Comp[index] is SpriteComponent.Layer layer
+            && layer.ShaderPrototype == "unshaded")
+        {
+            shaderOverride = "DisplacedUnshadedDraw";
+        }
+
+        if (shaderOverride != null)
+            sprite.Comp.LayerSetShader(index, shaderOverride);
+        // LoneStar end
+
         //allows you not to write it every time in the YML
         foreach (var pair in data.SizeMaps)
         {
