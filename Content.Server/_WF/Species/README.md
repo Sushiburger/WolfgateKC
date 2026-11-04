@@ -795,6 +795,7 @@ it back up to Okay after any drain, a Kelotane overdose included, before their d
 - [`Resources/Textures/_Impstation/Mobs/Customization/thaven/`](../../../Resources/Textures/_Impstation/Mobs/Customization/thaven/): Thaven marking sprites, ported from HardLight in
 - [`Resources/Textures/_Impstation/Mobs/Species/`](../../../Resources/Textures/_Impstation/Mobs/Species/): Impstation species sprites, ported from HardLight in
 - [`Resources/Textures/_Mono/Mobs/Species/Protogen/organs.rsi/`](../../../Resources/Textures/_Mono/Mobs/Species/Protogen/organs.rsi/): Back to Monolith's state list; the tongueforked state left with the protogen subspecies.
+- [`Resources/Textures/_NF/Clothing/Head/Hardsuits/maxim_prototype.rsi/`](../../../Resources/Textures/_NF/Clothing/Head/Hardsuits/maxim_prototype.rsi/): Vulpkanin and Feroxi equipped states added.
 - [`Resources/Textures/_NF/Mobs/Customization/human_hair.rsi/`](../../../Resources/Textures/_NF/Mobs/Customization/human_hair.rsi/): Extra human hair sprites, ported in
 - [`Resources/Textures/_RMC14/Actions/`](../../../Resources/Textures/_RMC14/Actions/): RMC14 action icons, ported from HardLight in
 - [`Resources/Textures/_RMC14/Mobs/`](../../../Resources/Textures/_RMC14/Mobs/): RMC14 mob and marking sprites, ported from HardLight in
@@ -805,7 +806,7 @@ it back up to Okay after any drain, a Kelotane overdose included, before their d
 - [`Resources/Textures/Clothing/Head/Hardsuits/engineering-white.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/engineering-white.rsi/): Avali equipped states added (meta.json re-serialised).
 - [`Resources/Textures/Clothing/Head/Hardsuits/engineering.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/engineering.rsi/): Avali equipped states added (meta.json re-serialised).
 - [`Resources/Textures/Clothing/Head/Hardsuits/luxury.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/luxury.rsi/): Avali equipped states added (meta.json re-serialised).
-- [`Resources/Textures/Clothing/Head/Hardsuits/maxim.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/maxim.rsi/): Avali equipped states added (meta.json re-serialised).
+- [`Resources/Textures/Clothing/Head/Hardsuits/maxim.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/maxim.rsi/): Avali, Vulpkanin and Feroxi equipped states added.
 - [`Resources/Textures/Clothing/Head/Hardsuits/medical.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/medical.rsi/): Avali equipped states added (meta.json re-serialised).
 - [`Resources/Textures/Clothing/Head/Hardsuits/paramedhelm.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/paramedhelm.rsi/): Avali equipped states added (meta.json re-serialised).
 - [`Resources/Textures/Clothing/Head/Hardsuits/rd.rsi/`](../../../Resources/Textures/Clothing/Head/Hardsuits/rd.rsi/): Avali equipped states added (meta.json re-serialised).
