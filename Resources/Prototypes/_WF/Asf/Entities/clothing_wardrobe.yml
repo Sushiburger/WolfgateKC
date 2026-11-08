@@ -183,7 +183,7 @@
     sprite: _WF/Asf/Clothing/OuterClothing/robe.rsi
 
 - type: entity
-  parent: ClothingOuterStorageFoldableBase
+  parent: [ ClothingOuterStorageFoldableBase, ClothingOuterCoatLab ]
   id: WFAsfClothingOuterExplorerLabcoat
   components:
   - type: Sprite
