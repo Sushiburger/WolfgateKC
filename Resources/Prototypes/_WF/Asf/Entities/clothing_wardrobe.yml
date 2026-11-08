@@ -63,24 +63,25 @@
       - state: equipped-INNERCLOTHING
       - state: equipped-INNERCLOTHING-accent
         shader: unshaded
+  - type: Item
+    inhandVisuals:
+      left:
+        - state: inhand-left
+        - state: inhand-left-accent
+          shader: unshaded
+      right:
+        - state: inhand-right
+        - state: inhand-right-accent
+          shader: unshaded
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: WFAsfClothingUniformStarfleetJumpskirtBlack
   id: WFAsfClothingUniformStarfleetJumpskirt
   components:
   - type: Sprite
     sprite: _WF/Asf/Clothing/Uniforms/starfleet_jumpskirt.rsi
-    layers:
-    - state: icon
-    - state: icon-accent
-      shader: unshaded
   - type: Clothing
     sprite: _WF/Asf/Clothing/Uniforms/starfleet_jumpskirt.rsi
-    clothingVisuals:
-      jumpsuit:
-      - state: equipped-INNERCLOTHING
-      - state: equipped-INNERCLOTHING-accent
-        shader: unshaded
 
 - type: entity
   parent: ClothingHeadBase
@@ -145,24 +146,19 @@
   - type: Clothing
     sprite: _WF/Asf/Clothing/OuterClothing/envoy_shroud.rsi
     clothingVisuals:
-      jumpsuit:
+      neck:
       - state: equipped-NECK
       - state: equipped-NECK-accent
         shader: unshaded
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: WFAsfClothingNeckShroudEnvoy
   id: WFAsfClothingNeckShroudResearcher
   components:
   - type: Sprite
     sprite: _WF/Asf/Clothing/Neck/researcher_shroud.rsi
   - type: Clothing
     sprite: _WF/Asf/Clothing/OuterClothing/researcher_shroud.rsi
-    clothingVisuals:
-      jumpsuit:
-      - state: equipped-NECK
-      - state: equipped-NECK-accent
-        shader: unshaded
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -195,7 +191,7 @@
   - type: Clothing
     sprite: _WF/Asf/Clothing/OuterClothing/explorer_labcoat.rsi
     clothingVisuals:
-      jumpsuit:
+      outerClothing:
       - state: equipped-OUTERCLOTHING
       - state: equipped-OUTERCLOTHING-accent
         shader: unshaded
@@ -213,7 +209,7 @@
   - type: Clothing
     sprite: _WF/Asf/Clothing/OuterClothing/haori.rsi
     clothingVisuals:
-      jumpsuit:
+      outerClothing:
       - state: equipped-OUTERCLOTHING
       - state: equipped-OUTERCLOTHING-accent
         shader: unshaded
