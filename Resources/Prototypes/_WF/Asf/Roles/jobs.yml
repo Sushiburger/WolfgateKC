@@ -130,7 +130,7 @@
     shoes: WFAsfClothingShoesBoots
     ears: WFAsfClothingHeadset
     id: WFAsfEnforcerPDA
-    outerClothing: ClothingOuterArmorBasic
+    # outerClothing: ClothingOuterArmorBasic
     pocket1: WeaponDisabler
   storage:
     back:

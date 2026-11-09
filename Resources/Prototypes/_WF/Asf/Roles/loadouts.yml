@@ -280,6 +280,20 @@
   fallbacks:
   - WFAsfLoadoutGreatcoat
 
+- type: loadoutGroup
+  id: WFAsfOuterEnforcer
+  name: loadout-group-contractor-outerclothing
+  loadouts:
+  - MercenaryVestSlim
+  - MercenaryVestNormal
+  - MercenaryClothingOuterArmorBPVestLight
+  - MercenaryClothingOuterArmorBPVestMedium
+  - MercenaryClothingOuterArmorBPVestHeavy
+  - MercenaryClothingOuterArmorBPVestPolyvalent
+  - MercenaryClothingOuterArmorBPVestStabproof
+  fallbacks:
+  - WFAsfLoadoutGreatcoat
+
 # Gloves
 
 - type: loadout
