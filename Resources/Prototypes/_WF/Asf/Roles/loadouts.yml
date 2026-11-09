@@ -204,6 +204,7 @@
   - WFAsfLoadoutCape
   - WFAsfLoadoutShroudEnvoy
   - WFAsfLoadoutShroudResearcher
+  - WFMeridianLoadoutClothingAccessoryPandoraHope
   fallbacks:
   - WFAsfLoadoutCapelet
 
@@ -214,6 +215,7 @@
   loadouts:
   - WFAsfLoadoutCapelet
   - WFAsfLoadoutShroudResearcher
+  - WFMeridianLoadoutClothingAccessoryPandoraHope
 
 # Outer clothing
 
