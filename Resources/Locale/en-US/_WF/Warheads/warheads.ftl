@@ -125,6 +125,8 @@ wf-nuke-designer-field-tile-break-scale = Tile break scale
 wf-nuke-designer-field-tile-break-scale-tooltip = Multiplier on how readily floor tiles break.
 wf-nuke-designer-field-delete-grid = Delete grid (true/false)
 wf-nuke-designer-field-delete-grid-tooltip = Deletes the whole grid it sits on before the blast. Never deletes a planet.
+wf-nuke-designer-field-erase-radius = Erase radius
+wf-nuke-designer-field-erase-radius-tooltip = Metres around ground zero where everything is deleted, floor and decals too. A planet keeps its ground.
 wf-nuke-designer-field-prompt-radiation = Burst radiation
 wf-nuke-designer-field-prompt-radiation-tooltip = Rads per second at the centre during the burst.
 wf-nuke-designer-field-prompt-radiation-slope = Burst slope
@@ -165,3 +167,7 @@ wf-nuke-designer-field-map-wide-audio = Map-wide alarm (true/false)
 wf-nuke-designer-field-map-wide-audio-tooltip = Plays the final alarm and countdown voice to the whole map rather than nearby.
 wf-nuke-designer-field-detonation-sound = Detonation sound
 wf-nuke-designer-field-detonation-sound-tooltip = Sound played to the whole map. Leave empty for none.
+
+wf-warhead-key-missing = It won't arm. Its key isn't in the keyhole.
+wf-warhead-examine-key-in = Its key is in the keyhole.
+wf-warhead-examine-key-out = It has an empty keyhole. It won't arm without its key.

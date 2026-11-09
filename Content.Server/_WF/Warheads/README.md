@@ -5,7 +5,9 @@ countdown in its last 10 seconds, floats a green countdown over itself, and then
 (`wfWarheadPayload`): a blast, an immediate radiation burst, decaying fallout that leaves a green haze, an EMP, and
 for the client a white-out flash, a shockwave ring that bends the screen and shakes the camera, and a procedural
 fireball in space or a rising mushroom cloud on a planet. A strategic payload deletes the grid it sits on outright,
-never a planet.
+never a planet. Every payload's `eraseRadius` wipes ground zero before the blast (`WFWarheadSystem.Erase.cs`): every
+physical thing there, everything on a ship's grid, decals and floor tiles (a planet keeps its ground), so no paint or
+fittings are left floating. Fallout is lethal: 15-40 rad/s at its centre, halving every 5-12 minutes.
 
 Warheads are admin and antag only for now. Chassis:
 
@@ -14,6 +16,8 @@ Warheads are admin and antag only for now. Chassis:
 - `WFWarheadStrategic`: cmss13's 64x64 device, two keys, deletes its grid.
 - `WFWarheadScuttleTerminal`: Skyrat's terminal, two keys or a remote signal.
 - Mono's Atlant missile now detonates `WFPayloadMissile` on impact.
+- `WFWarheadTacticalKeyed`: the tactical chassis with a keyhole (`WFWarheadKeyLock`): it arms only with its own
+  `WFNukeKey` in. Factions buy it through the Ordnance module.
 
 Clicking a warhead opens its control panel (`WFWarheadWindow`): hazard stripes, a radiation trefoil that spins
 while it counts, status lamps, a seven-segment timer, and a section per fuze it has: timer presets and a covered
@@ -33,6 +37,9 @@ Admins build bespoke warheads in the nuke designer (`nukedesigner`, or Nuke Desi
 start from a payload preset, edit every field, pick a chassis, fuzes and a name, then spawn it or set the payload off
 where you stand.
 
+Every nuclear detonation raises `WFNuclearDetonatedEvent` (where, and a kill radius of twice the erase radius plus 16 m) before
+it does anything, so a Monolith's Prime can be destroyed by it; arming raises `WFWarheadArmedEvent`, which DEFCON follows.
+
 Entry points: `WFWarheadSystem` (countdowns, detonation, arming, designer spawns), the client's
 `WFWarheadEffectsSystem` with its overlays and the `nuclear_blast` and `fallout_haze` shaders, and `WFNukeDesignerEui`.
 
@@ -49,11 +56,13 @@ Entry points: `WFWarheadSystem` (countdowns, detonation, arming, designer spawns
 - [`Content.Server/_WF/Warheads/Components/WFRemoteFuzeComponent.cs`](Components/WFRemoteFuzeComponent.cs)
 - [`Content.Server/_WF/Warheads/Components/WFTimerFuzeComponent.cs`](Components/WFTimerFuzeComponent.cs)
 - [`Content.Server/_WF/Warheads/Components/WFTwoPersonArmingComponent.cs`](Components/WFTwoPersonArmingComponent.cs)
+- [`Content.Server/_WF/Warheads/Components/WFWarheadKeyLockComponent.cs`](Components/WFWarheadKeyLockComponent.cs)
 - [`Content.Server/_WF/Warheads/WFNukeDesignerCommand.cs`](WFNukeDesignerCommand.cs)
 - [`Content.Server/_WF/Warheads/WFNukeDesignerEui.cs`](WFNukeDesignerEui.cs)
 - [`Content.Server/_WF/Warheads/WFWarheadSystem.Arming.cs`](WFWarheadSystem.Arming.cs)
 - [`Content.Server/_WF/Warheads/WFWarheadSystem.cs`](WFWarheadSystem.cs)
 - [`Content.Server/_WF/Warheads/WFWarheadSystem.Designer.cs`](WFWarheadSystem.Designer.cs)
+- [`Content.Server/_WF/Warheads/WFWarheadSystem.Erase.cs`](WFWarheadSystem.Erase.cs)
 - [`Content.Server/_WF/Warheads/WFWarheadSystem.Ui.cs`](WFWarheadSystem.Ui.cs)
 
 ### Shared
