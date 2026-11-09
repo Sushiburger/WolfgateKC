@@ -205,6 +205,10 @@
   - WFAsfLoadoutShroudEnvoy
   - WFAsfLoadoutShroudResearcher
   - WFMeridianLoadoutClothingAccessoryPandoraHope
+  - ContractorClothingNeckIFFPurple
+  - ContractorClothingNeckTieSci
+  - WFMeridianLoadoutClothingAccessorySpyBug
+  - WFMeridianLoadoutClothingAccessoryNovaAccMedalGlowcrystal
   fallbacks:
   - WFAsfLoadoutCapelet
 
@@ -216,6 +220,10 @@
   - WFAsfLoadoutCapelet
   - WFAsfLoadoutShroudResearcher
   - WFMeridianLoadoutClothingAccessoryPandoraHope
+  - ContractorClothingNeckIFFPurple
+  - ContractorClothingNeckTieSci
+  - WFMeridianLoadoutClothingAccessorySpyBug
+  - WFMeridianLoadoutClothingAccessoryNovaAccMedalGlowcrystal
 
 # Outer clothing
 
