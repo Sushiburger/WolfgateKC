@@ -144,6 +144,7 @@
   id: JobWFAsfEnforcer
   groups:
   - WFAsfJumpsuitService
+  - WFAsfOuter
   - WFAsfHeadEnforcer
   - WFAsfNeck
   - WFAsfGloves
