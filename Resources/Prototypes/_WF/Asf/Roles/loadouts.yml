@@ -278,7 +278,7 @@
   - WFAsfLoadoutExplorerLabcoat
   - WFAsfLoadoutHaori
   fallbacks:
-  - WFAsfLoadoutGreatcoat
+  - WFAsfLoadoutOuterCoatLab
 
 - type: loadoutGroup
   id: WFAsfOuterEnforcer
@@ -292,7 +292,7 @@
   - MercenaryClothingOuterArmorBPVestPolyvalent
   - MercenaryClothingOuterArmorBPVestStabproof
   fallbacks:
-  - WFAsfLoadoutGreatcoat
+  - MercenaryVestSlim
 
 # Gloves
 
