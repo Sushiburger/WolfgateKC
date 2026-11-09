@@ -144,6 +144,7 @@
   id: JobWFAsfEnforcer
   groups:
   - WFAsfJumpsuitService
+  - WFAsfOuter
   - WFAsfHeadEnforcer
   - WFAsfNeck
   - WFAsfGloves
@@ -239,7 +240,7 @@
     shoes: WFAsfClothingShoesBoots
     ears: WFAsfClothingHeadset
     id: WFAsfFieldResearcherPDA
-    outerClothing: WFAsfClothingOuterCoatLab
+    # outerClothing: WFAsfClothingOuterCoatLab
   storage:
     back:
     - RadioHandheldNF
@@ -250,6 +251,7 @@
   id: JobWFAsfFieldResearcher
   groups:
   - WFAsfJumpsuitResearcher
+  - WFAsfOuter
   - WFAsfHead
   - WFAsfNeck
   - WFAsfGloves
@@ -345,7 +347,7 @@
     shoes: WFAsfClothingShoesBoots
     ears: WFAsfClothingHeadset
     id: WFAsfColonistPDA
-    belt: ClothingBeltUtilityFilled
+    # belt: ClothingBeltUtilityFilled
   storage:
     back:
     - RadioHandheldNF

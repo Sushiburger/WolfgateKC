@@ -235,6 +235,11 @@
     outerClothing: WFAsfClothingOuterRobe
 
 - type: loadout
+  id: WFAsfLoadoutOuterCoatLab
+  equipment:
+    outerClothing: WFAsfClothingOuterCoatLab
+
+- type: loadout
   id: WFAsfLoadoutExplorerLabcoat
   equipment:
     outerClothing: WFAsfClothingOuterExplorerLabcoat
@@ -251,6 +256,17 @@
   - WFAsfLoadoutGreatcoat
   - WFAsfLoadoutParade
   - WFAsfLoadoutRobe
+  - WFAsfLoadoutOuterCoatLab
+  - WFAsfLoadoutExplorerLabcoat
+  - WFAsfLoadoutHaori
+  fallbacks:
+  - WFAsfLoadoutGreatcoat
+
+- type: loadoutGroup
+  id: WFAsfOuter
+  name: loadout-group-contractor-outerclothing
+  loadouts:
+  - WFAsfLoadoutOuterCoatLab
   - WFAsfLoadoutExplorerLabcoat
   - WFAsfLoadoutHaori
   fallbacks:
