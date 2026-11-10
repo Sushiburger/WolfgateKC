@@ -144,7 +144,7 @@
   - type: Sprite
     sprite: _WF/Asf/Clothing/Neck/envoy_shroud.rsi
   - type: Clothing
-    sprite: _WF/Asf/Clothing/OuterClothing/envoy_shroud.rsi
+    sprite: _WF/Asf/Clothing/Neck/envoy_shroud.rsi
     clothingVisuals:
       neck:
       - state: equipped-NECK
@@ -158,7 +158,7 @@
   - type: Sprite
     sprite: _WF/Asf/Clothing/Neck/researcher_shroud.rsi
   - type: Clothing
-    sprite: _WF/Asf/Clothing/OuterClothing/researcher_shroud.rsi
+    sprite: _WF/Asf/Clothing/Neck/researcher_shroud.rsi
 
 - type: entity
   parent: ClothingOuterStorageBase
