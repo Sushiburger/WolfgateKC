@@ -16,6 +16,7 @@ CASC Lightning or Hornet at the Frontier Staff Shipyard. The Roswell and Petra s
 ## Non-modular edits
 
 - [`Resources/Prototypes/_Mono/Loadouts/ColonialOutpost/security_guard.yml`](../../../Resources/Prototypes/_Mono/Loadouts/ColonialOutpost/security_guard.yml)
+  - added holster to security belt options
   - additional security eyewear
   - additional security jumpsuits for judges
 - [`Resources/Prototypes/_Mono/Outpost/caelestinus.yml`](../../../Resources/Prototypes/_Mono/Outpost/caelestinus.yml): judge cap raised from 3 to 5
