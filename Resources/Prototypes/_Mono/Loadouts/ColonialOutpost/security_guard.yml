@@ -32,6 +32,7 @@
   - MonoSecurityGuardAssaultBelt
   - MonoSecurityGuardSecurityCarrier
   - MonoSecurityGuardSecurityCarrierLarge
+  - ContractorClothingBeltHolster # WOLFGATE(Judges): added holster to security belt options
   fallbacks:
   - MonoSecurityGuardWebbing
 
