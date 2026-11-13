@@ -35,15 +35,14 @@
   - WFMeridianLoadoutHeadHatsWardenPolicePatrol
   - WFMeridianLoadoutHeadHatsWardenRed
   - WFMeridianLoadoutHeadHatsWardenSyndicate
-  - WFMeridianLoadoutHeadPlaybunnyearsHos
-  - WFMeridianLoadoutHeadPlaybunnyearsSecurity
-  - WFMeridianLoadoutHeadPlaybunnyearsSecurityAssistant
-  # WOLFGATE(Clothing)
+  - WFMeridianLoadoutClothingHeadPlaybunnyearsHos
+  - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurity
+  - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurityAssistant
+  # WOLFGATE
   - HeadofSecurityHead
   - HeadofSecurityBeret
   - WardenBeret
   - WardenHead
-  - ClothingHeadHatWarden
   - ContractorClothingHeadSanabi
   # WOLFGATE END
 
