@@ -228,6 +228,7 @@
   - HeadofSecurityHead
   - HeadofSecurityJumpsuit
   - HeadofSecurityNeck
+  - WardenJumpsuit # Wolfgate
   - ColonialLiaisonFirearm # Mono
   - ContractorBoxSurvival
   - StationRepPDA
@@ -274,6 +275,8 @@
   - WFSecurityGuardHud
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
+  - WardenJumpsuit
+  # Wolfgate End
 
 - type: roleLoadout
   id: JobDirectorOfCare
