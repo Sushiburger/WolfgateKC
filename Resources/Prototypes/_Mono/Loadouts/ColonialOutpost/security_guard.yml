@@ -163,7 +163,6 @@
   - WFMeridianLoadoutClothingUnderRankSecuritySecurityBunnysuit
   - WFMeridianLoadoutClothingUnderRankSecurityWarden
   - WFMeridianLoadoutClothingUnderRankSecurityWardenBunnysuit
-  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityBunnysuit
   - WFMeridianLoadoutClothingUnderRankSecurityWardenNova
   - WFMeridianLoadoutClothingUnderRankSecurityWardenNovaBlue
   - WFMeridianLoadoutClothingUnderRankSecurityWardenNovaSuit
@@ -172,6 +171,7 @@
   - WFMeridianLoadoutClothingUnderSolfedOfficerLowrnk
   # WOLFGATE END
   # WOLFGATE(Judges) START: additional security jumpsuits for judges
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityBunnysuit
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaParadeFemale
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaBlue
