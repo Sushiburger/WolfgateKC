@@ -2447,6 +2447,12 @@
     head: WFMeridianClothingHeadPlaybunnyearsGeneticist
 
 - type: loadout
+  id: WFMeridianLoadoutClothingHeadPlaybunnyearsHos
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadPlaybunnyearsHos
+
+- type: loadout
   id: WFMeridianLoadoutClothingHeadPlaybunnyearsJanitor
   price: 0
   equipment:
@@ -2529,6 +2535,18 @@
   price: 0
   equipment:
     head: WFMeridianClothingHeadPlaybunnyearsScientist
+
+- type: loadout
+  id: WFMeridianLoadoutClothingHeadPlaybunnyearsSecurity
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadPlaybunnyearsSecurity
+
+- type: loadout
+  id: WFMeridianLoadoutClothingHeadPlaybunnyearsSecurityAssistant
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadPlaybunnyearsSecurityAssistant
 
 - type: loadout
   id: WFMeridianLoadoutClothingHeadPlaybunnyearsUsa
