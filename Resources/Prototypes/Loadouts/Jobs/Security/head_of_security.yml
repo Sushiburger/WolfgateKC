@@ -60,7 +60,7 @@
   id: HeadofSecurityMantle
   equipment:
     neck: ClothingNeckMantleHOS
-  # WOLFGATE
+  # WOLFGATE: Remove Colonel timelock
   # effects:
   # - !type:GroupLoadoutEffect
   #   proto: MasterHoS

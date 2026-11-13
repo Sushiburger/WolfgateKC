@@ -176,7 +176,8 @@
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaBlue
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormal
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormalBlue
-  # # WOLFGATE(Clothing) START: additional security eyewear
+  # WOLFGATE END
+  # WOLFGATE(Clothing) START: additional security eyewear
   - HeadofSecurityJumpsuit
   - HeadofSecurityJumpskirt
   - HeadofSecurityTurtleneck
