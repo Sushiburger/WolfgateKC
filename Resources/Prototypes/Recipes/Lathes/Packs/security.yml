@@ -10,6 +10,8 @@
   - TargetHuman
   - TargetSyndicate
   - Zipties
+  - JetpackBlue # Wolfgate: Give Judges jetpacks
+  - JetpackSecurity # Wolfgate: Give Judges jetpacks
 
 # Practice ammo/mags and practice weapons
 - type: latheRecipePack

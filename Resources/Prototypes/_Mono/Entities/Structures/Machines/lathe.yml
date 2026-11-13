@@ -868,6 +868,7 @@
     - StaticGrenades
     - SecurityWeaponsStatic
     - MonoCaelestinusVouchersStatic
+    - MonoAttachmentsStatic #Wolfgate<Weapons>: Give Judges attachments
     dynamicPacks:
     - SecurityEquipment
     - SecurityExplosives

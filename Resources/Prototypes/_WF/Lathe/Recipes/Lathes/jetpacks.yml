@@ -1,0 +1,17 @@
+- type: latheRecipe
+  id: JetpackBlue
+  result: JetpackBlue
+  completetime: 10
+  materials:
+    Steel: 800
+    Plastic: 800
+    Gold: 50
+
+- type: latheRecipe
+  id: JetpackSecurity
+  result: JetpackSecurity
+  completetime: 10
+  materials:
+    Steel: 800
+    Plastic: 800
+    Gold: 50
