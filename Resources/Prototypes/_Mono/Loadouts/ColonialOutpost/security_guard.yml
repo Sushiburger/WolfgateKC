@@ -84,7 +84,7 @@
   loadouts:
   - MonoSecHUD
   - MonoSecPGlasses
-  # Wolfgate(Clothing):
+  # WOLFGATE(Clothing) START: additional security eyewear
   - LoadoutEyesGlassesSecurity
   - LoadoutEyesEyepatchHudSecurity
   - WFMeridianLoadoutGlassesHudSecuritySunglassesEyepatch

@@ -60,7 +60,7 @@
   id: HeadofSecurityMantle
   equipment:
     neck: ClothingNeckMantleHOS
-  # Wolfgate
+  # WOLFGATE
   # effects:
   # - !type:GroupLoadoutEffect
   #   proto: MasterHoS
