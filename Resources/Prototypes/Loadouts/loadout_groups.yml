@@ -2364,7 +2364,8 @@
   - WFMeridianLoadoutClothingHeadPlaybunnyearsHos
   - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurity
   - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurityAssistant
-  # WOLFGATE(Clothing)
+  # WOLFGATE END
+  # WOLFGATE(Judges): Expanding loadout options in HeadOfSecurityHead for overseer
   - SecurityBeret
   - SecurityHelmet
   - WardenBeret
