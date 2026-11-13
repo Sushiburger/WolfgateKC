@@ -2355,6 +2355,22 @@
   - WFMeridianLoadoutClothingHeadCollectableHos
   - WFMeridianLoadoutClothingHeadCollectablePolice
   - WFMeridianLoadoutClothingHeadPlaybunnyearsBrigPhys
+  - WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerBlack
+  - WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerWhite
+  - WFMeridianClothingHeadHatsWardenDrill
+  - WFMeridianClothingHeadHatsWardenPolicePatrol
+  - WFMeridianClothingHeadHatsWardenRed
+  - WFMeridianClothingHeadHatsWardenSyndicate
+  - WFMeridianLoadoutClothingHeadPlaybunnyearsHos
+  - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurity
+  - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurityAssistant
+  # WOLFGATE(Clothing)
+  - SecurityBeret
+  - SecurityHelmet
+  - WardenBeret
+  - WardenHead
+  - ClothingHeadHatWarden
+  - ContractorClothingHeadSanabi
   # WOLFGATE END
 
 - type: loadoutGroup
@@ -2404,6 +2420,13 @@
   - WFMeridianLoadoutClothingUnderRankSecurityWardenNovaSuitBlue
   - WFMeridianLoadoutClothingUnderSolfedOfficer
   - WFMeridianLoadoutClothingUnderSolfedOfficerLowrnk
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaParadeFemale
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaBlue
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormal
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormalBlue
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaParadeFemale
   # WOLFGATE END
 
 - type: loadoutGroup
@@ -2422,6 +2445,10 @@
   - WFMeridianLoadoutClothingNeckTieBunnytieBrigPhys
   - WFMeridianLoadoutClothingNeckTieBunnytieSecurity
   - WFMeridianLoadoutClothingNeckTieBunnytieSecurityAssistant
+  - WFMeridianLoadoutClothingNeckMantleHosmantle
+  - WFMeridianLoadoutClothingNeckPauldron
+  - ClothingNeckCloakSanabi
+  - ContractorClothingNeckIFFRed
   # WOLFGATE END
 
 - type: loadoutGroup

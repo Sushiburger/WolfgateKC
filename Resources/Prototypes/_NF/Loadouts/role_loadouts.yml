@@ -270,6 +270,10 @@
   - ContractorBureaucracy
   - NFSpeciesSpecific
   #- FactionArmorPlates # Mono
+  # Wolfgate:
+  - WFSecurityGuardHud
+  - HeadofSecurityNeck
+  - HeadofSecurityJumpsuit
 
 - type: roleLoadout
   id: JobDirectorOfCare
