@@ -2345,7 +2345,7 @@
 # Security
 - type: loadoutGroup
   id: HeadofSecurityHead
-  name: loadout-group-head-of-security-head
+  name: loadout-group-contractor-head
   minLimit: 0
   loadouts:
   - HeadofSecurityHead
@@ -2375,7 +2375,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
-  name: loadout-group-head-of-security-jumpsuit
+  name: loadout-group-contractor-jumpsuit
   loadouts:
   - HeadofSecurityJumpsuit
   - HeadofSecurityJumpskirt
@@ -2431,7 +2431,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityNeck
-  name: loadout-group-head-of-security-neck
+  name: loadout-group-contractor-neck
   minLimit: 0
   loadouts:
   - HeadofSecurityCloak
@@ -2470,7 +2470,7 @@
 
 - type: loadoutGroup
   id: WardenHead
-  name: loadout-group-warden-head
+  name: loadout-group-contractor-head
   minLimit: 0
   loadouts:
   - WardenHead
@@ -2484,7 +2484,7 @@
 
 - type: loadoutGroup
   id: WardenJumpsuit
-  name: loadout-group-warden-jumpsuit
+  name: loadout-group-contractor-jumpsuit
   loadouts:
   - WardenJumpsuit
   - WardenJumpskirt
@@ -2529,7 +2529,7 @@
 
 - type: loadoutGroup
   id: WardenOuterClothing
-  name: loadout-group-warden-outerclothing
+  name: loadout-group-contractor-outerclothing
   loadouts:
   - WardenCoat
   - WardenArmoredWinterCoat

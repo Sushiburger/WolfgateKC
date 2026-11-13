@@ -56,3 +56,9 @@
     eyes: WFMeridianClothingGlassesHudSecuritySunglassesArmadyne
 
 
+# Mask
+
+# - type: loadout
+#   id: LoadoutEyesGlassesSecurity
+#   equipment:
+#     mask: ClothingEyesGlassesSecurity
