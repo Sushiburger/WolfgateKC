@@ -246,7 +246,7 @@
   # Mono Start
   - MonoSecurityGuardOuterClothing
   - MonoSecurityGuardBelt
-  - MonoSecurityGuardGaiter
+  # - MonoSecurityGuardGaiter # Wolfgate
   - MonoSecurityGuardHud
   - MonoSecurityGuardShoes
   - MonoSecurityGuardJumpsuit
@@ -258,6 +258,7 @@
   - SecurityGuardGloves
   - SecurityGuardHead
   - SecurityGuardEars
+  - SecurityGuardFace
   - NfsdBoxSurvival
   - SecurityGuardPDA
   - ContractorWallet
@@ -271,10 +272,7 @@
   - NFSpeciesSpecific
   #- FactionArmorPlates # Mono
   # Wolfgate:
-  - WFSecurityGuardHud
   - HeadofSecurityNeck
-  - HeadofSecurityJumpsuit
-  - WardenJumpsuit
   # Wolfgate End
 
 - type: roleLoadout

@@ -1,20 +1,5 @@
 # Eyes
 
-- type: loadoutGroup
-  id: WFSecurityGuardHud
-  name: loadout-group-contractor-glasses
-  loadouts:
-  - LoadoutEyesGlassesSecurity
-  - LoadoutEyesEyepatchHudSecurity
-  - WFMeridianLoadoutGlassesHudSecuritySunglassesEyepatch
-  - WFMeridianLoadoutGlassesHudArProjectorSecurity
-  - WFMeridianLoadoutGlassesHudArAviatorSecurity
-  - WFMeridianLoadoutGlassesHudArAviatorSecurityblue
-  - WFMeridianLoadoutGlassesHudSecuritySunglassesArmadyne
-  - WFMeridianLoadoutGlassesHudSecuritySunglassesPeacekeeper
-  fallbacks:
-  - LoadoutEyesGlassesSecurity
-
 - type: loadout
   id: LoadoutEyesGlassesSecurity
   equipment:
@@ -53,12 +38,4 @@
 - type: loadout
   id: WFMeridianLoadoutGlassesHudSecuritySunglassesPeacekeeper
   equipment:
-    eyes: WFMeridianClothingGlassesHudSecuritySunglassesArmadyne
-
-
-# Mask
-
-# - type: loadout
-#   id: LoadoutEyesGlassesSecurity
-#   equipment:
-#     mask: ClothingEyesGlassesSecurity
+    eyes: WFMeridianClothingGlassesHudSecuritySunglassesPeacekeeper

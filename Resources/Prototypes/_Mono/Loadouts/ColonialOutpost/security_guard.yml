@@ -84,6 +84,16 @@
   loadouts:
   - MonoSecHUD
   - MonoSecPGlasses
+  # Wolfgate(Clothing):
+  - LoadoutEyesGlassesSecurity
+  - LoadoutEyesEyepatchHudSecurity
+  - WFMeridianLoadoutGlassesHudSecuritySunglassesEyepatch
+  - WFMeridianLoadoutGlassesHudArProjectorSecurity
+  - WFMeridianLoadoutGlassesHudArAviatorSecurity
+  - WFMeridianLoadoutGlassesHudArAviatorSecurityblue
+  - WFMeridianLoadoutGlassesHudSecuritySunglassesArmadyne
+  - WFMeridianLoadoutGlassesHudSecuritySunglassesPeacekeeper
+  # WOLFGATE END
   fallbacks:
   - MonoSecHUD
 
@@ -159,6 +169,22 @@
   - WFMeridianLoadoutClothingUnderRankSecurityWardenNovaSuitBlue
   - WFMeridianLoadoutClothingUnderSolfedOfficer
   - WFMeridianLoadoutClothingUnderSolfedOfficerLowrnk
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaParadeFemale
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaBlue
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormal
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormalBlue
+  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaParadeFemale
+  # Wolfgate(Clothing)
+  - HeadofSecurityJumpsuit
+  - HeadofSecurityJumpskirt
+  - HeadofSecurityTurtleneck
+  - HeadofSecurityTurtleneckSkirt
+  - HeadofSecurityFormalSuit
+  - HeadofSecurityFormalSkirt
+  - WardenJumpsuit
+  - WardenJumpskirt
   # WOLFGATE END
   fallbacks:
   - MonoSecJumpsuitRed

@@ -29,15 +29,15 @@
   - WFMeridianLoadoutClothingHeadCollectableHos
   - WFMeridianLoadoutClothingHeadCollectablePolice
   - WFMeridianLoadoutClothingHeadPlaybunnyearsBrigPhys
-  - WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerBlack
-  - WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerWhite
-  - WFMeridianClothingHeadHatsWardenDrill
-  - WFMeridianClothingHeadHatsWardenPolicePatrol
-  - WFMeridianClothingHeadHatsWardenRed
-  - WFMeridianClothingHeadHatsWardenSyndicate
-  - WFMeridianLoadoutClothingHeadPlaybunnyearsHos
-  - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurity
-  - WFMeridianLoadoutClothingHeadPlaybunnyearsSecurityAssistant
+  - WFMeridianLoadoutHeadHatsSyndicateInterdyneDeckofficerBlack
+  - WFMeridianLoadoutHeadHatsSyndicateInterdyneDeckofficerWhite
+  - WFMeridianLoadoutHeadHatsWardenDrill
+  - WFMeridianLoadoutHeadHatsWardenPolicePatrol
+  - WFMeridianLoadoutHeadHatsWardenRed
+  - WFMeridianLoadoutHeadHatsWardenSyndicate
+  - WFMeridianLoadoutHeadPlaybunnyearsHos
+  - WFMeridianLoadoutHeadPlaybunnyearsSecurity
+  - WFMeridianLoadoutHeadPlaybunnyearsSecurityAssistant
   # WOLFGATE(Clothing)
   - HeadofSecurityHead
   - HeadofSecurityBeret
@@ -117,8 +117,11 @@
 - type: loadoutGroup
   id: SecurityGuardFace
   name: loadout-group-contractor-face
-  hidden: true # No point in showing this, it gets auto-selected.
   loadouts:
   - SecurityClothingMaskGasSecurity
+  - MonoSecurityGuardNeckGaiter
+  - MonoSecurityGuardNeckGaiterRed
+  - MercenaryClothingMaskDrakeIndustriesWatchdog
+  - ContractorClothingMaskDrakeIndustries
   fallbacks:
   - SecurityClothingMaskGasSecurity
