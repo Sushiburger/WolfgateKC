@@ -1295,6 +1295,42 @@
     head: WFMeridianClothingHeadChaplainTaqiyahWhite
 
 - type: loadout
+  id: WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerBlack
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadCollectableBeret
+
+- type: loadout
+  id: WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerWhite
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadCollectableBeret
+
+- type: loadout
+  id: WFMeridianClothingHeadHatsWardenDrill
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadCollectableBeret
+
+- type: loadout
+  id: WFMeridianClothingHeadHatsWardenPolicePatrol
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadCollectableBeret
+
+- type: loadout
+  id: WFMeridianClothingHeadHatsWardenRed
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadCollectableBeret
+
+- type: loadout
+  id: WFMeridianClothingHeadHatsWardenSyndicate
+  price: 0
+  equipment:
+    head: WFMeridianClothingHeadCollectableBeret
+
+- type: loadout
   id: WFMeridianLoadoutClothingHeadCollectableBeret
   price: 0
   equipment:

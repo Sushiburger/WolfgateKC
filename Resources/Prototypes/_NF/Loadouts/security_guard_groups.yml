@@ -29,6 +29,18 @@
   - WFMeridianLoadoutClothingHeadCollectableHos
   - WFMeridianLoadoutClothingHeadCollectablePolice
   - WFMeridianLoadoutClothingHeadPlaybunnyearsBrigPhys
+  - WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerBlack
+  - WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerWhite
+  - WFMeridianClothingHeadHatsWardenDrill
+  - WFMeridianClothingHeadHatsWardenPolicePatrol
+  - WFMeridianClothingHeadHatsWardenRed
+  - WFMeridianClothingHeadHatsWardenSyndicate
+  # WOLFGATE(Clothing)
+  - HeadofSecurityHead
+  - HeadofSecurityBeret
+  - WardenBeret
+  - WardenHead
+  - ClothingHeadHatWarden
   # WOLFGATE END
 
 - type: loadoutGroup
