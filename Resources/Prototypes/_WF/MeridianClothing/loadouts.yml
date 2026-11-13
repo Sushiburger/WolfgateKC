@@ -1295,40 +1295,40 @@
     head: WFMeridianClothingHeadChaplainTaqiyahWhite
 
 - type: loadout
-  id: WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerBlack
+  id: WFMeridianLoadoutHeadHatsSyndicateInterdyneDeckofficerBlack
   price: 0
   equipment:
-    head: WFMeridianClothingHeadCollectableBeret
+    head: WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerBlack
 
 - type: loadout
-  id: WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerWhite
+  id: WFMeridianLoadoutHeadHatsSyndicateInterdyneDeckofficerWhite
   price: 0
   equipment:
-    head: WFMeridianClothingHeadCollectableBeret
+    head: WFMeridianClothingHeadHatsSyndicateInterdyneDeckofficerWhite
 
 - type: loadout
-  id: WFMeridianClothingHeadHatsWardenDrill
+  id: WFMeridianLoadoutHeadHatsWardenDrill
   price: 0
   equipment:
-    head: WFMeridianClothingHeadCollectableBeret
+    head: WFMeridianClothingHeadHatsWardenDrill
 
 - type: loadout
-  id: WFMeridianClothingHeadHatsWardenPolicePatrol
+  id: WFMeridianLoadoutHeadHatsWardenPolicePatrol
   price: 0
   equipment:
-    head: WFMeridianClothingHeadCollectableBeret
+    head: WFMeridianClothingHeadHatsWardenPolicePatrol
 
 - type: loadout
-  id: WFMeridianClothingHeadHatsWardenRed
+  id: WFMeridianLoadoutHeadHatsWardenRed
   price: 0
   equipment:
-    head: WFMeridianClothingHeadCollectableBeret
+    head: WFMeridianClothingHeadHatsWardenRed
 
 - type: loadout
-  id: WFMeridianClothingHeadHatsWardenSyndicate
+  id: WFMeridianLoadoutHeadHatsWardenSyndicate
   price: 0
   equipment:
-    head: WFMeridianClothingHeadCollectableBeret
+    head: WFMeridianClothingHeadHatsWardenSyndicate
 
 - type: loadout
   id: WFMeridianLoadoutClothingHeadCollectableBeret
