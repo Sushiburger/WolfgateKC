@@ -84,7 +84,7 @@
   loadouts:
   - MonoSecHUD
   - MonoSecPGlasses
-  # WOLFGATE(Clothing) START: additional security eyewear
+  # WOLFGATE(Judges) START: additional security eyewear
   - LoadoutEyesGlassesSecurity
   - LoadoutEyesEyepatchHudSecurity
   - WFMeridianLoadoutGlassesHudSecuritySunglassesEyepatch
@@ -170,14 +170,13 @@
   - WFMeridianLoadoutClothingUnderRankSecurityWardenNovaSuitBlue
   - WFMeridianLoadoutClothingUnderSolfedOfficer
   - WFMeridianLoadoutClothingUnderSolfedOfficerLowrnk
+  # WOLFGATE END
+  # WOLFGATE(Judges) START: additional security jumpsuits for judges
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaParadeFemale
-  - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaAltSkirt
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaBlue
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormal
   - WFMeridianLoadoutClothingUnderRankSecurityHeadOfSecurityNovaFormalBlue
-  # WOLFGATE END
-  # WOLFGATE(Clothing) START: additional security eyewear
   - HeadofSecurityJumpsuit
   - HeadofSecurityJumpskirt
   - HeadofSecurityTurtleneck

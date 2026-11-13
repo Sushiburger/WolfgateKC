@@ -60,7 +60,7 @@
   id: HeadofSecurityMantle
   equipment:
     neck: ClothingNeckMantleHOS
-  # WOLFGATE: Remove Colonel timelock
+  # WOLFGATE(Judges): the HoS mantle no longer needs the MasterHoS unlock
   # effects:
   # - !type:GroupLoadoutEffect
   #   proto: MasterHoS

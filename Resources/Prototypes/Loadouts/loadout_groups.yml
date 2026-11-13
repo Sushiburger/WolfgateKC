@@ -2345,7 +2345,7 @@
 # Security
 - type: loadoutGroup
   id: HeadofSecurityHead
-  name: loadout-group-contractor-head
+  name: loadout-group-contractor-head # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   minLimit: 0
   loadouts:
   - HeadofSecurityHead
@@ -2374,7 +2374,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
-  name: loadout-group-contractor-jumpsuit
+  name: loadout-group-contractor-jumpsuit # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   loadouts:
   - HeadofSecurityJumpsuit
   - HeadofSecurityJumpskirt
@@ -2428,7 +2428,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityNeck
-  name: loadout-group-contractor-neck
+  name: loadout-group-contractor-neck # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   minLimit: 0
   loadouts:
   - HeadofSecurityCloak
@@ -2450,7 +2450,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
-  name: loadout-group-head-of-security-outerclothing
+  name: loadout-group-contractor-outerclothing # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   loadouts:
   - HeadofSecurityCoat
   - HeadofSecurityWinterCoat
@@ -2467,7 +2467,7 @@
 
 - type: loadoutGroup
   id: WardenHead
-  name: loadout-group-contractor-head
+  name: loadout-group-contractor-head # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   minLimit: 0
   loadouts:
   - WardenHead
@@ -2481,7 +2481,7 @@
 
 - type: loadoutGroup
   id: WardenJumpsuit
-  name: loadout-group-contractor-jumpsuit
+  name: loadout-group-contractor-jumpsuit # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   loadouts:
   - WardenJumpsuit
   - WardenJumpskirt
@@ -2526,7 +2526,7 @@
 
 - type: loadoutGroup
   id: WardenOuterClothing
-  name: loadout-group-contractor-outerclothing
+  name: loadout-group-contractor-outerclothing # WOLFGATE(Judges): judges use these groups, so they get the contractor label
   loadouts:
   - WardenCoat
   - WardenArmoredWinterCoat
