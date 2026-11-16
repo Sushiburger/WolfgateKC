@@ -253,6 +253,10 @@
   # WOLFGATE(ClownCosmetics) START
   - WFContractorClothingModsuitClownPowerCell
   # WOLFGATE END
+  # WOLFGATE(Modsuits) START: Add sanitater and standard modsuit to loadouts
+  - MdMedicClothingModsuitParamedicPowerCell
+  - MdClothingModsuitStandardPowerCell
+  # WOLFGATE END
   - ContractorClothingBackpack
   - ContractorClothingBackpackDuffel
   - ContractorClothingBackpackSatchel
