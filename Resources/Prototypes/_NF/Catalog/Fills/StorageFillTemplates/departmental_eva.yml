@@ -34,7 +34,7 @@
     contents:
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
-    - id: UndeterminedVoidsuitSecurity # Mono: move FL gear to loadout
+    - id: UndeterminedVoidsuitHeadOfSecurity # Mono
     - id: ClothingMaskBreath
     - id: JetpackMiniFilled
 

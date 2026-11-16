@@ -1,3 +1,4 @@
+# WOLFGATE: Caelestinus Expansion I (#675) reverted
 - type: entity
   id: LockerQuarterMasterFilledHardsuit
   suffix: Filled, Hardsuit
@@ -49,7 +50,6 @@
       - id: WeaponOverseerMace # Mono
       - id: PhoneInstrumentHigh # Mono
       - id: WeaponCaseShortBombCollar # Mono
-      - id: RDServerCaelestinusFlatpack # Mono
 
 - type: entity
   id: LockerNfsdSheriffFilled

@@ -155,9 +155,6 @@
   - _Mono/Clothing/OuterClothing/Hardsuits/armored_eva.rsi
   - _Mono/Clothing/OuterClothing/Hardsuits/asakim.rsi
   - _Mono/Clothing/OuterClothing/Hardsuits/basilisk.rsi
-  - _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_adjudicator.rsi
-  - _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_constable.rsi
-  - _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_marshal.rsi
   - _Mono/Clothing/OuterClothing/Hardsuits/cctc_lstar.rsi
   - _Mono/Clothing/OuterClothing/Hardsuits/cctc_lstarpremium.rsi
   - _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi
@@ -204,6 +201,7 @@
   - _NF/Clothing/OuterClothing/Suits/fsb_voidsuit.rsi
   - _NF/Clothing/OuterClothing/Suits/syndicate_bombsuit.rsi
   - _WF/Asf/Clothing/OuterClothing/eva.rsi
+  - _WF/Blueshield/Clothing/OuterClothing/Hardsuits/bsolight.rsi
   - _WF/ClownCosmetics/Clothing/EVA/clown_battlesuit.rsi
   - _WF/MeridianClothing/OuterClothing/armor_durability_barrelmelon.rsi
   - _WF/MeridianClothing/OuterClothing/armor_durability_holymelon.rsi

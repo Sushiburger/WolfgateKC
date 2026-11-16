@@ -94,8 +94,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseWFModsuitSecurityContraband]
   id: ClothingModsuitSecurity
-  name: MD-MOD CDW-20 "Soldat" modsuit control unit
-  description: A robust MODsuit worn by the judges of Caelestinus, equipped with 12 gauge knuckle-dusters.
+  name: security soldat modsuit control unit
+  description: A robust modular hardsuit control module unit for thrashing commies in spess.
   components:
   - type: Appearance
   - type: Sprite
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseCommandContraband]
   id: ClothingModsuitHeadOfSecurity
-  name: MD-MOD CDW-50 "Bulwark" modsuit control unit
-  description: The pinnacle of Caelestinus' MODsuit development program, the Bulwark is equipped with 4 gauge knuckle-dusters for blowing a hole right through whatever stands between Caelestinus and independence.
+  name: head of security's bulwark modsuit control unit
+  description: A robust modular HARDERsuit control module unit for the head of security.
   components:
   - type: Appearance
   - type: Clothing

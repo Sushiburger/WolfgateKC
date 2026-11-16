@@ -10512,13 +10512,15 @@ entities:
     - type: Transform
       parent: 1
       pos: -17.5,41.5
-- proto: BannerCaelestinus
+- proto: BannerEngineering
   entities:
   - uid: 401
     components:
     - type: Transform
       parent: 1
       pos: -39.5,19.5
+- proto: BannerSecurity
+  entities:
   - uid: 405
     components:
     - type: Transform

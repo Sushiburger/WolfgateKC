@@ -226,6 +226,7 @@
     tags:
     - WeaponShotgunJack
 
+
 - type: entity
   name: UW12-B Helepolis (12 gauge)
   parent: BaseWeaponShotgun

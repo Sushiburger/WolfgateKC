@@ -220,16 +220,17 @@
         Heat: 0.9
 
 #Security Hardsuit
+# WOLFGATE START: Caelestinus Expansion I (#675) reverted
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons ] # Mono
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSecurity
-  name: MP-EVA CSW-15 "Constable" hardsuit helmet # Mono
-  description: Armored hardsuit helmet for Caelestinus. # Mono
+  name: judge's hardsuit helmet
+  description: Armored hardsuit helmet for security needs.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/caelestinus_constable.rsi # Mono
+    sprite: Clothing/Head/Hardsuits/security.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/caelestinus_constable.rsi # Mono
+    sprite: Clothing/Head/Hardsuits/security.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -243,6 +244,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+# WOLFGATE END
 
 #Brigmedic Hardsuit
 - type: entity
@@ -273,15 +275,15 @@
 
 #Warden's Hardsuit
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons, ShowMedicalIcons ] # Mono
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitWarden
-  name: MP-EVA CSW-25 "Adjudicator" hardsuit helmet # Mono
+  name: warden's hardsuit helmet
   description: A modified riot helmet. Oddly comfortable.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/caelestinus_adjudicator.rsi # Mono
+    sprite: Clothing/Head/Hardsuits/security-warden.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/caelestinus_adjudicator.rsi # Mono
+    sprite: Clothing/Head/Hardsuits/security-warden.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -295,15 +297,6 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: NightVision # Gen 1 dualtube, Mono
-    relayOverlay: true
-    goggleEffect: true
-    action: ActionToggleNightVision
-    viewCircleRadius: 400
-    viewCircleCount: 2
-    viewCircleSpacing: 280
-    phosphorColor: "#00AACC"
-    lightingColor: "#FFFFFF32"
 
 #Captain's Hardsuit
 - type: entity
@@ -393,16 +386,17 @@
     lightingColor: "#FFFFFF32"
 
 #Head of Security's hardsuit
+# WOLFGATE START: Caelestinus Expansion I (#675) reverted
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons, ShowMedicalIcons ]
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: MP-EVA CSW-30 "Marshal" hardsuit helmet
+  name: overseer's hardsuit helmet
   description: A specially armoured hardsuit helmet belonging to the Overseer. The TSF markings have been defaced.
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Head/Hardsuits/caelestinus_marshal.rsi # Mono
+    sprite: Clothing/Head/Hardsuits/security-red.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/Head/Hardsuits/caelestinus_marshal.rsi # Mono
+    sprite: Clothing/Head/Hardsuits/security-red.rsi
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -416,16 +410,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: NightVision # Gen 4 quadtube-wide, Mono
-    relayOverlay: true
-    goggleEffect: true
-    viewCircleRadius: 450
-    viewCircleCount: 4
-    viewCircleSpacing: 280
-    action: ActionToggleNightVision
-    phosphorColor: "#41D7D9"
-    lightingColor: "#FFFFFF32"
-  
+# WOLFGATE END
 
 #Luxury Mining Hardsuit
 - type: entity

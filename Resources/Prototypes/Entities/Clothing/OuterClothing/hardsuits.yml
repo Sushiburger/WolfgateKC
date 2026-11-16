@@ -355,11 +355,12 @@
       helmetattachment: ClothingHeadHelmetAttachmentBlock
 
 #Security Hardsuit
+# WOLFGATE START: Caelestinus Expansion I (#675) reverted
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSecurity
-  name: MP-EVA CSW-15 "Constable" hardsuit # Mono
-  description: A voidsuit up-armoured by Caelestinus to serve as the backbone of their operations. # Mono
+  name: judge's hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   # WOLFGATE(ArmorSpecialization): spall liner.
   - type: WFWoundWard
@@ -368,9 +369,9 @@
     - WFWolfmedLodgedRoundWound
     - WFWolfmedShrapnelWound
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_constable.rsi # Mono
+    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_constable.rsi # Mono
+    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -380,14 +381,13 @@
     modifiers:
       coefficients:
         Blunt: 0.5
-        Slash: 0.5 # Mono
+        Slash: 0.6
         Piercing: 0.5
         Caustic: 0.8
-        Heat: 0.45 # Mono
-        Radiation: 0.45 # Mono: add radres
-  - type: ClothingSpeedModifier # Mono: 0.85 -> 0.9
-    walkModifier: 0.9
-    sprintModifier: 0.9
+        Heat: 0.7 # Goobstation
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.4
@@ -399,12 +399,7 @@
       head: ClothingHeadHelmetHardsuitSecurity
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
-  - type: HideLayerClothing # Mono: new sprite hides hair
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
+# WOLFGATE END
 
 #Brigmedic Hardsuit
 - type: entity
@@ -451,8 +446,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitWarden
-  name: MP-EVA CSW-25 "Adjudicator" hardsuit # Mono
-  description: The Adjudicator is a result of monotonous reverse engineering and delicate blueprinting. While simple and slow at its core it is capable of sustaining the user through rigorous levels of trauma. It is also equipped with a high-grade optics solution and medical assessment HUD. # Mono
+  name: warden's hardsuit
+  description: A specialized riot suit geared to combat low pressure environments.
   components:
   # WOLFGATE(ArmorSpecialization): shock absorbers.
   - type: WFWoundWard
@@ -461,9 +456,9 @@
       WFWolfmedConcussionWound: 2
       WFWolfmedOrganContusionWound: 2
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_adjudicator.rsi # Mono
+    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_adjudicator.rsi # Mono
+    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -472,15 +467,14 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.25 # Mono
-        Slash: 0.25 # Mono
-        Piercing: 0.25 # Mono
+        Blunt: 0.35
+        Slash: 0.45
+        Piercing: 0.40
         Caustic: 0.7
-        Heat: 0.3 # Mono
-        Radiation: 0.2 # Mono
-  - type: ClothingSpeedModifier # Mono: 0.7 -> 0.65
-    walkModifier: 0.65
-    sprintModifier: 0.65
+        Heat: 0.55 # Goobstation
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.3
@@ -492,12 +486,6 @@
       head: ClothingHeadHelmetHardsuitWarden
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
-  - type: HideLayerClothing # Mono: new sprite hides hair
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
 
 #Captain's Hardsuit
 - type: entity
@@ -708,11 +696,12 @@
     coefficient: 0.4
 
 #Head of Security's Hardsuit
+# WOLFGATE START: Caelestinus Expansion I (#675) reverted
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSecurityRed
-  name: MP-EVA CSW-30 "Marshal" hardsuit # Mono
-  description: The Overseer's personal suit, the Marshal is effectively a suit of power armour adorned with several mismatching armour plates salvaged from seized TSFMC and PDV suits. # Mono
+  name: overseer's hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   # WOLFGATE(ArmorSpecialization): spall liner and concussion ward.
   - type: WFWoundWard
@@ -722,9 +711,9 @@
     - WFWolfmedShrapnelWound
     - WFWolfmedConcussionWound
   - type: Sprite
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_marshal.rsi # Mono
+    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Hardsuits/caelestinus_marshal.rsi # Mono
+    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
@@ -733,15 +722,15 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4 # Mono
-        Slash: 0.4 # Mono
-        Piercing: 0.35 # Mono
-        Radiation: 0.3 # Mono
+        Blunt: 0.6
+        Slash: 0.5
+        Piercing: 0.45
+        Radiation: 0.5
         Caustic: 0.6
-        Heat: 0.2 # Mono
+        Heat: 0.55 # Goobstation
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.85
+    sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.4
@@ -753,6 +742,7 @@
       head: ClothingHeadHelmetHardsuitSecurityRed
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+# WOLFGATE END
 
 #Luxury Mining Hardsuit
 - type: entity

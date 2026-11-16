@@ -414,32 +414,18 @@
 # Rifles
 
 - type: loadout #Iroh
-  id: CaelestinusIrohLoadout
+  id: SecurityGuardIrohLoadout
+  name: iroh gun case
   price: 0
-  storage:
-    back:
-    - WeaponRifleIroh
-
-- type: loadout #Firestarter
-  id: CaelestinusFirestarterLoadout
-  price: 0
-  storage:
-    back:
-    - WeaponSubMachineGunFirestarter
+  inhand:
+  - WeaponCaseLongIrohSecurity
 
 - type: loadout #Iroh Ammo
-  id: Caelestinus556x45mmAmmoLoadout
+  id: SecurityGuard556x45mmAmmoLoadout
   price: 0
   storage:
     back:
     - BoxMagazine556x45mmFMJ
-
-- type: loadout #Firestarter Ammo
-  id: Caelestinus46x30mmAmmoLoadout
-  price: 0
-  storage:
-    back:
-    - BoxMagazine46x30mmSubMachineGunFMJ
 
 # Shotguns
 
@@ -842,10 +828,3 @@
   storage:
     back:
     - WeaponPistolViper
-
-- type: loadout
-  id: CaelestinusGalacticaLoadout
-  price: 0
-  storage:
-    back:
-    - WeaponPistolCaelestinusGalactica

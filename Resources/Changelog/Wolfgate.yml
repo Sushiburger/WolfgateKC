@@ -7739,3 +7739,82 @@ Entries:
   id: 100488
   time: '2026-11-16T09:55:53.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/670
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Classic ships that were locked behind Mercenary access (Tanuki,
+        Valkyrie, Archer, Balor, Claymore, Praetorian, Fortunate, Siebel,
+        Twilight MkII, Scallywag, Serkesh, Skelraak, Vrikaash, Bow-Man, Rac-Man)
+        can be bought by anyone again.
+  id: 100489
+  time: '2026-11-16T10:33:18.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/691
+- author: Erol509
+  changes:
+    - type: Add
+      message: >-
+        Added BSO clothing sprites, and loadout options for the drip. Resprited
+        departamental head cloaks/mantles
+  id: 100490
+  time: '2026-11-16T12:34:16.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/658
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the air alarm UI crashing when linked to vox atmos devices or
+        storage sensors.
+  id: 100491
+  time: '2026-11-16T12:34:42.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/693
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        NPC crew now cover the approaches when you break line of sight, and fire
+        sooner when you reappear.
+    - type: Add
+      message: >-
+        Reaver riflemen carry grenades and throw them round corners, shouting a
+        warning first.
+    - type: Add
+      message: >-
+        Veteran and better crew sidestep while shooting, fall back to patch up
+        when badly hurt, and hunt in pairs.
+    - type: Tweak
+      message: >-
+        Reaver crewmen vary in skill: deckhands are weaker and officers sharper
+        than the rest of their crew.
+    - type: Fix
+      message: >-
+        NPC riflemen no longer drop and re-grab their spare magazine forever
+        instead of reloading.
+  id: 100492
+  time: '2026-11-16T13:20:25.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/686
+- author: Gandalf2k15
+  changes:
+    - type: Remove
+      message: Caelestinus Expansion I is rolled back for now.
+  id: 100493
+  time: '2026-11-16T13:30:03.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/695
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        The SRD and drydocks now rebuild a destroyed mobile drydock crane bolted
+        down and bonded to its ship.
+  id: 100494
+  time: '2026-11-16T14:22:59.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/697
+- author: Happyowl93
+  changes:
+    - type: Tweak
+      message: >-
+        Ships from a faction voucher can no longer be broken at a drydock or
+        chop shop by their own faction.
+  id: 100495
+  time: '2026-11-16T14:24:11.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/687

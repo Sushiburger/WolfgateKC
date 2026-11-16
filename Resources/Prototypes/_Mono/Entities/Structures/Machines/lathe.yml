@@ -893,8 +893,6 @@
     - UniversalOrdinance
     - SmartGun #Smart SMG
     - NFMercenaryTechfabDeprecated
-    - MonoCaelestinusWeaponsDynamic
-    - MonoCaelestinusGearDynamic
     # Mono end
   - type: MaterialStorage
     whitelist:

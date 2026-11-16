@@ -132,9 +132,8 @@
   - ContractorTrinkets
   - ContractorBureaucracy
   - NFSpeciesSpecific
-  - MercenaryFirearm # Mono
-  - SecurityGuardPistol # Mono
-  - MercenaryMag # Mono
+  - ContractorFirearm # Mono
+  - ContractorMag # Mono
 
 - type: roleLoadout
   id: JobNFJanitor
@@ -230,8 +229,7 @@
   - HeadofSecurityHead
   - HeadofSecurityJumpsuit
   - HeadofSecurityNeck
-  - SecurityGuardFirearm # Mono
-  - SecurityGuardPistol # Mono
+  - ColonialLiaisonFirearm # Mono
   - ContractorBoxSurvival
   - StationRepPDA
   - ContractorWallet
@@ -300,8 +298,6 @@
   - ContractorFun
   - ContractorTrinkets
   - ContractorBureaucracy
-  - SecurityGuardFirearm # Mono
-  - SecurityGuardPistol # Mono
   - NFSpeciesSpecific
 
 # Nfsd

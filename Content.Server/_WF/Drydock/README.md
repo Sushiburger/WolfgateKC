@@ -129,6 +129,11 @@ lying there; the last tile of the hull prints whatever is left. An abort or a de
 and pays no more. The console shows the payout before the break. Stripped boards, parts and guns land beside the
 cranes as usual.
 
+A faction's ship (its `CompanyComponent`, from the voucher or the buyer's ID, or the faction a player company's flag
+hides) can't be broken by a member of that faction, at a chop shop or a mobile drydock, so a faction can't strip its own
+hulls for their plastitanium (`FactionBreakRefusal`). Other factions and factionless breakers can break it, as with any
+captured ship.
+
 Breaking lawful property puts a warrant (`warrantReward`, 15,000) on the breaker, posted on the bounty board's warrant
 list (`WFShipbreakerWarrantSystem`). Lawful property is a ship registered to another player (`ShipOwnershipComponent`; an unregistered deed goes by
 the owner's name), or a live
