@@ -24,6 +24,18 @@
   - ContractorSpecialGunMla34
   #- ContractorSpecialGunMla79
   - ContractorSpecialGunMalandro
+  #WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend.
+  - WeaponCaseLeeEnfieldRegisteredLoadout
+  - WeaponCaseLongVulcanFCMCRegisteredLoadout
+  - WeaponCaseLongPrometheusRegisteredLoadout
+  - WeaponCaseLongNovaliteRegisteredLoadout
+  - WeaponCaseLongGestioRegisteredLoadout
+  - WeaponCaseLongKnallstockRegisteredLoadout
+  - WeaponCaseLongKeyboardRegisteredLoadout
+  - WeaponCaseLongKammererRegisteredLoadout
+  - WeaponCaseLongHelepolisRegisteredLoadout
+  - WeaponCaseLongSawnOffRegisteredLoadout
+  #WOLFGATE END
 
 # TSF playtime weapons
 

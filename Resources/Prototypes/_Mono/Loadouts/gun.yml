@@ -56,6 +56,92 @@
     back:
     - SurvivalKnife
 
+#WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend. Provided in cases.
+- type: loadout
+  id: WeaponCaseLeeEnfieldRegisteredLoadout
+  name: lee enfield gun case
+  price: 12500
+  inhand:
+  - WeaponCaseLongLeeEnfieldRegistered
+
+- type: loadout
+  id: WeaponCaseLongVulcanFCMCRegisteredLoadout
+  name: vulcan fcmc gun case
+  price: 30000
+  inhand:
+  - WeaponCaseLongVulcanFCMCRegistered
+
+- type: loadout
+  id: WeaponCaseLongPrometheusRegisteredLoadout
+  name: prometheus gun case
+  price: 15000
+  inhand:
+  - WeaponCaseLongPrometheusRegistered
+
+- type: loadout
+  id: WeaponCaseLongNovaliteRegisteredLoadout
+  name: novalite gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongNovaliteRegistered
+
+- type: loadout
+  id: WeaponCaseLongGestioRegisteredLoadout
+  name: gestio gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongGestioRegistered
+
+- type: loadout
+  id: WeaponCaseLongKnallstockRegisteredLoadout
+  name: knallstock gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongKnallstockRegistered
+
+- type: loadout
+  id: WeaponCaseLongKeyboardRegisteredLoadout
+  name: keyboard gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongKeyboardRegistered
+
+- type: loadout
+  id: WeaponCaseLongAK220RegisteredLoadout
+  name: ak-220 gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongAK220Registered
+
+- type: loadout
+  id: WeaponCaseLongAK220RegisteredLoadout
+  name: ak-220 gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongAK220Registered
+
+- type: loadout
+  id: WeaponCaseLongKammererRegisteredLoadout
+  name: kammerer gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongKammererRegistered
+
+- type: loadout
+  id: WeaponCaseLongHelepolisRegisteredLoadout
+  name: helepolis gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongHelepolisRegistered
+
+- type: loadout
+  id: WeaponCaseLongSawnOffRegisteredLoadout
+  name: sawn-off gun case
+  price: 5000
+  inhand:
+  - WeaponCaseLongSawnOffRegistered
+#WOLFGATE END
+
 # Shotguns
 
 - type: loadout #Double Barrel Beanbag

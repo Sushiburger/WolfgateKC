@@ -193,3 +193,149 @@
       amount: 1
     - id: Magazine9x19mmSubMachineGunFMJ
       amount: 4
+
+#WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend.
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLeeEnfieldRegistered
+  suffix: Loadout, Lee Enfield
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleLeeEnfield
+      amount: 1
+    - id: Magazine762x51mmFMJ
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongVulcanFCMCRegistered
+  suffix: Loadout, Vulcan
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleVulcanFCMC
+      amount: 1
+    - id: Magazine762x51mmFMJ
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongPrometheusRegistered
+  suffix: Loadout, Prometheus
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRiflePrometheus
+      amount: 1
+    - id: Magazine556x45mmFMJ
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongNovaliteRegistered
+  suffix: Loadout, Novalite
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleNovaliteC1
+      amount: 1
+    - id: MagazineNovaliteC1
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongNovaliteRegistered
+  suffix: Loadout, Novalite
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleNovaliteC1
+      amount: 1
+    - id: MagazineNovaliteC1
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongGestioRegistered
+  suffix: Loadout, Gestio
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleGestio
+      amount: 1
+    - id: Magazine762x39mmLowCapacityFMJ
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongKnallstockRegistered
+  suffix: Loadout, Knallstock
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunKnallstock
+      amount: 1
+    - id: Magazine45_ACPPistolFMJ
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongKeyboardRegistered
+  suffix: Loadout, Keyboard
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunTypewriterPMC
+      amount: 1
+    - id: Magazine45_ACPSubMachineGunFMJ
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongAK220Registered
+  suffix: Loadout, AK-220
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunAK220
+      amount: 1
+    - id: Magazine9x19mmSubMachineGunFMJ
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongKammererRegistered
+  suffix: Loadout, Kammerer
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunKammererPMC
+      amount: 1
+    - id: AmmoBox12_gaugeBuckshot
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongHelepolisRegistered
+  suffix: Loadout, Helepolis
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunHelepolis
+      amount: 1
+    - id: AmmoBox12_gaugeSlug
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongSawnOffRegistered
+  suffix: Loadout, Sawn Off
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunSawn
+      amount: 1
+    - id: AmmoBox12_gaugeBuckshot
+      amount: 1
+#WOLFGATE END
