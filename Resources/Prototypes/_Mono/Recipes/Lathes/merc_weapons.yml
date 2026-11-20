@@ -238,3 +238,17 @@
     Steel: 3000
     Plasteel: 2500
     Plastic: 700
+#WOLFGATE(Weapons) START: Strix is craftable through research
+- type: latheRecipe
+  id: WeaponRevolverStrix
+  result: WeaponRevolverStrix
+  categories:
+  - Weapons
+  - Sidearms
+  - Ballistic
+  completetime: 3
+  materials:
+    Steel: 1000
+    Plastic: 1200
+    Plasteel: 1200
+#WOLFGATE END

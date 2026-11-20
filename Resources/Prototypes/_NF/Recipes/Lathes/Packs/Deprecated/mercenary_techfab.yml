@@ -195,6 +195,7 @@
   - WeaponRifleAk
   - WeaponShotgunJack
 #Mono end
+  - WeaponRevolverStrix #WOLFGATE(Weapons): Make Strix craftable through research.
 
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecatedEmag
