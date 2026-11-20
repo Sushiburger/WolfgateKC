@@ -35,6 +35,10 @@
   - WeaponCaseLongKammererRegisteredLoadout
   - WeaponCaseLongHelepolisRegisteredLoadout
   - WeaponCaseLongSawnOffRegisteredLoadout
+  - MercenaryLaserCarbineLoadout
+  - MercenaryEnergyGunLoadout
+  - MercenaryDisablerSMGLoadout
+  - MercenaryLaserPistolLoadout
   #WOLFGATE END
 
 # TSF playtime weapons
