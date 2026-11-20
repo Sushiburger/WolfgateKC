@@ -472,13 +472,6 @@
   storage:
     back:
     - WeaponShotgunHelepolis
-
-- type: loadout #Laser Pistol
-  id: MercenaryLaserPistolLoadout
-  price: 1500
-  storage:
-    back:
-    - WeaponLaserPistolNF
 #WOLFGATE END
 
 # Melee

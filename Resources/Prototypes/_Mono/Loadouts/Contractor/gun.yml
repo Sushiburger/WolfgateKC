@@ -16,6 +16,9 @@
   - MercenarySawedOffLoadout
   - MercenaryHelepolisLoadout
   - MercenaryLaserPistolLoadout
+  - MercenaryCombatKnifeLoadout
+  - MercenaryKukriKnifeLoadout
+  - MercenaryMacheteLoadout
   - # WOLFGATE(Weapons)
   #WOLFGATE END
   fallbacks:
