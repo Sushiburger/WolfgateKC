@@ -3,7 +3,7 @@
   name: Strix (.357 magnum)
   parent: BaseWeaponRevolver
   id: WeaponRevolverStrix
-  description: placeholder
+  description: A recently widespread and custom-built revolver that has become popular among enthusiasts. Twist your elbow to absorb the recoil. Uses .357 magnum ammo.
   components:
   - type: Sprite
     sprite: _WG/Objects/Weapons/Guns/Revolvers/strix.rsi
