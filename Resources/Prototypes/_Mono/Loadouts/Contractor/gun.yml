@@ -30,5 +30,11 @@
   minLimit: 0
   loadouts:
   - Contractor9x19mmPistolAmmoLoadout #MK32 Universal
-  #- Contractor556x45mmAmmoLoadout #Argenti
+  - Contractor556x45mmAmmoLoadout #Argenti #WOLFGATE(Weapons): Argentini Available
   - ContractorBeanbagAmmoLoadout #Shotgun Beanbag
+  #WOLFGATE(Weapons) START: Loadouts equitable to what's in LibertyVend.
+  - MercenaryAcpPistolAmmoLoadout #MK-58
+  - MercenarySlugAmmoLoadout #Shotgun slugs
+  - MercenaryBuckshotAmmoLoadout #Shotgun Buckshot
+  - MercenaryRechargerLoadout #Recharger
+  #WOLFGATE END

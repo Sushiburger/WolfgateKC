@@ -197,7 +197,7 @@
 #WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend.
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLeeEnfieldRegistered
+  id: WeaponCaseLongLeeEnfieldRegistered
   suffix: Loadout, Lee Enfield
   components:
   - type: StorageFill
@@ -314,4 +314,16 @@
       amount: 1
     - id: AmmoBox12_gaugeBuckshot
       amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortStrix
+  suffix: Loadout, Strix
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverStrix
+      amount: 1
+    - id: SpeedLoader357_magnumFMJ
+      amount: 2
 #WOLFGATE END

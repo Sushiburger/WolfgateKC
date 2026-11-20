@@ -58,7 +58,7 @@
 
 #WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend. Provided in cases.
 - type: loadout
-  id: WeaponCaseLeeEnfieldRegisteredLoadout
+  id: WeaponCaseLongLeeEnfieldRegisteredLoadout
   name: lee enfield gun case
   price: 12500
   inhand:
@@ -464,15 +464,6 @@
   storage:
     back:
     - WeaponLaserPistolNF
-
-#WOLFGATE(Weapons) START: Giving Vagrants what's in the libertyvend. Sidearms.
-- type: loadout
-  id: MercenaryHelepolisLoadout
-  price: 3000
-  storage:
-    back:
-    - WeaponShotgunHelepolis
-#WOLFGATE END
 
 # Melee
 
