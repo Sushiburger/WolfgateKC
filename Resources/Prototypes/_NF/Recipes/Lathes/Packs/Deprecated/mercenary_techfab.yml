@@ -93,10 +93,10 @@
   - WeaponSniperMosinUSSP #Mono
   - WeaponSubMachineGunAK220USSP #Mono
   #WOLFGATE(Weapons) START: LiberationVend weapons made craftable.
-  - WeaponPistolViper
-  - WeaponPistolMk32
-  - WeaponSubMachineGunKeyboard
-  - WeaponRifleLeeEnfield
+  - WGWeaponPistolViper
+  - WGWeaponPistolMk32
+  - WGWeaponSubMachineGunKeyboard
+  - WGWeaponRifleLeeEnfield
   #WOLFGATE END
   ## Cyborg Modules
   - BorgModuleMercenary # mono
@@ -202,8 +202,8 @@
   - WeaponShotgunJack
 #Mono end
 #WOLFGATE(Weapons) START: Make Strix and energy gun craftable through research.
-  - WeaponRevolverStrix
-  - WeaponEnergyGun
+  - WGWeaponRevolverStrix
+  - WGWeaponEnergyGun
 #WOLFGATE END
 
 - type: latheRecipePack

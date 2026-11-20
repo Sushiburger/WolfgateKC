@@ -8,7 +8,7 @@
   recipeUnlocks:
   - WeaponLMGRatel
   - WeaponShotgunBigBuddy
-  - WeaponRevolverStrix #WOLFGATE(Weapons): Make Strix craftable through research
+  - WGWeaponRevolverStrix #WOLFGATE(Weapons): Make Strix craftable through research
   - WeaponShotgunJack
   - ClothingBackpackJack
   technologyPrerequisites:

@@ -197,7 +197,7 @@
 #WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend.
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongLeeEnfieldRegistered
+  id: WGWeaponCaseLongLeeEnfieldRegistered
   suffix: Loadout, Lee Enfield
   components:
   - type: StorageFill
@@ -209,7 +209,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongVulcanFCMCRegistered
+  id: WGWeaponCaseLongVulcanFCMCRegistered
   suffix: Loadout, Vulcan
   components:
   - type: StorageFill
@@ -221,7 +221,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongPrometheusRegistered
+  id: WGWeaponCaseLongPrometheusRegistered
   suffix: Loadout, Prometheus
   components:
   - type: StorageFill
@@ -233,7 +233,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongNovaliteRegistered
+  id: WGWeaponCaseLongNovaliteRegistered
   suffix: Loadout, Novalite
   components:
   - type: StorageFill
@@ -245,7 +245,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongGestioRegistered
+  id: WGWeaponCaseLongGestioRegistered
   suffix: Loadout, Gestio
   components:
   - type: StorageFill
@@ -257,7 +257,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongKnallstockRegistered
+  id: WGWeaponCaseLongKnallstockRegistered
   suffix: Loadout, Knallstock
   components:
   - type: StorageFill
@@ -269,7 +269,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongKeyboardRegistered
+  id: WGWeaponCaseLongKeyboardRegistered
   suffix: Loadout, Keyboard
   components:
   - type: StorageFill
@@ -281,7 +281,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongAK220Registered
+  id: WGWeaponCaseLongAK220Registered
   suffix: Loadout, AK-220
   components:
   - type: StorageFill
@@ -293,7 +293,7 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongKammererRegistered
+  id: WGWeaponCaseLongKammererRegistered
   suffix: Loadout, Kammerer
   components:
   - type: StorageFill
@@ -305,12 +305,12 @@
 
 - type: entity
   parent: WeaponCaseShort
-  id: WeaponCaseShortStrix
+  id: WGWeaponCaseShortStrix
   suffix: Loadout, Strix
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRevolverStrix
+    - id: WGWeaponRevolverStrix
       amount: 1
     - id: SpeedLoader357_magnumFMJ
       amount: 2

@@ -25,16 +25,16 @@
   #- ContractorSpecialGunMla79
   - ContractorSpecialGunMalandro
   #WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend.
-  - ContractorSpecialGunStrix
-  - WeaponCaseLongLeeEnfieldRegisteredLoadout
-  - WeaponCaseLongVulcanFCMCRegisteredLoadout
-  - WeaponCaseLongPrometheusRegisteredLoadout
-  - WeaponCaseLongNovaliteRegisteredLoadout
-  - WeaponCaseLongGestioRegisteredLoadout
-  - WeaponCaseLongAK220RegisteredLoadout
-  - WeaponCaseLongKnallstockRegisteredLoadout
-  - WeaponCaseLongKeyboardRegisteredLoadout
-  - WeaponCaseLongKammererRegisteredLoadout
+  - WGContractorSpecialGunStrix
+  - WGWeaponCaseLongLeeEnfieldRegisteredLoadout
+  - WGWeaponCaseLongVulcanFCMCRegisteredLoadout
+  - WGWeaponCaseLongPrometheusRegisteredLoadout
+  - WGWeaponCaseLongNovaliteRegisteredLoadout
+  - WGWeaponCaseLongGestioRegisteredLoadout
+  - WGWeaponCaseLongAK220RegisteredLoadout
+  - WGWeaponCaseLongKnallstockRegisteredLoadout
+  - WGWeaponCaseLongKeyboardRegisteredLoadout
+  - WGWeaponCaseLongKammererRegisteredLoadout
   - MercenaryLaserCarbineLoadout
   - MercenaryEnergyGunLoadout
   - MercenaryDisablerSMGLoadout
@@ -148,14 +148,14 @@
 
 #WOLFGATE(Weapons) START: New revolver for vagrants
 - type: loadout
-  id: ContractorSpecialGunStrix
+  id: WGContractorSpecialGunStrix
   name: strix gun case
   effects:
   - !type:GroupLoadoutEffect
     proto: MonoCivVet
   price: 32500
   inhand:
-  - WeaponCaseShortStrix
+  - WGWeaponCaseShortStrix
 #WOLFGATE END
 
 # Rogue playtime weapons

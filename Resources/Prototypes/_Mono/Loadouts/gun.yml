@@ -58,67 +58,67 @@
 
 #WOLFGATE(Weapons) START: Extra guns for Vagrants, from libertyvend. Provided in cases.
 - type: loadout
-  id: WeaponCaseLongLeeEnfieldRegisteredLoadout
+  id: WGWeaponCaseLongLeeEnfieldRegisteredLoadout
   name: lee enfield gun case
   price: 12500
   inhand:
-  - WeaponCaseLongLeeEnfieldRegistered
+  - WGWeaponCaseLongLeeEnfieldRegistered
 
 - type: loadout
-  id: WeaponCaseLongVulcanFCMCRegisteredLoadout
+  id: WGWeaponCaseLongVulcanFCMCRegisteredLoadout
   name: vulcan fcmc gun case
   price: 30000
   inhand:
-  - WeaponCaseLongVulcanFCMCRegistered
+  - WGWeaponCaseLongVulcanFCMCRegistered
 
 - type: loadout
-  id: WeaponCaseLongPrometheusRegisteredLoadout
+  id: WGWeaponCaseLongPrometheusRegisteredLoadout
   name: prometheus gun case
   price: 15000
   inhand:
-  - WeaponCaseLongPrometheusRegistered
+  - WGWeaponCaseLongPrometheusRegistered
 
 - type: loadout
-  id: WeaponCaseLongNovaliteRegisteredLoadout
+  id: WGWeaponCaseLongNovaliteRegisteredLoadout
   name: novalite gun case
   price: 5000
   inhand:
-  - WeaponCaseLongNovaliteRegistered
+  - WGWeaponCaseLongNovaliteRegistered
 
 - type: loadout
-  id: WeaponCaseLongGestioRegisteredLoadout
+  id: WGWeaponCaseLongGestioRegisteredLoadout
   name: gestio gun case
   price: 5000
   inhand:
-  - WeaponCaseLongGestioRegistered
+  - WGWeaponCaseLongGestioRegistered
 
 - type: loadout
-  id: WeaponCaseLongKnallstockRegisteredLoadout
+  id: WGWeaponCaseLongKnallstockRegisteredLoadout
   name: knallstock gun case
   price: 5000
   inhand:
-  - WeaponCaseLongKnallstockRegistered
+  - WGWeaponCaseLongKnallstockRegistered
 
 - type: loadout
-  id: WeaponCaseLongKeyboardRegisteredLoadout
+  id: WGWeaponCaseLongKeyboardRegisteredLoadout
   name: keyboard gun case
   price: 5000
   inhand:
-  - WeaponCaseLongKeyboardRegistered
+  - WGWeaponCaseLongKeyboardRegistered
 
 - type: loadout
-  id: WeaponCaseLongAK220RegisteredLoadout
+  id: WGWeaponCaseLongAK220RegisteredLoadout
   name: ak-220 gun case
   price: 5000
   inhand:
-  - WeaponCaseLongAK220Registered
+  - WGWeaponCaseLongAK220Registered
 
 - type: loadout
-  id: WeaponCaseLongKammererRegisteredLoadout
+  id: WGWeaponCaseLongKammererRegisteredLoadout
   name: kammerer gun case
   price: 5000
   inhand:
-  - WeaponCaseLongKammererRegistered
+  - WGWeaponCaseLongKammererRegistered
 #WOLFGATE END
 
 # Shotguns
