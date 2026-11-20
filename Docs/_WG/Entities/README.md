@@ -9,6 +9,7 @@ Needs that for the old NF lockers that are still in the code. Technicly dont nee
 
 ### Prototypes
 
+- [`Resources/Prototypes/_WG/Entities/Objects/Weapons/Guns/Revolvers/revolvers.yml`](../../../Resources/Prototypes/_WG/Entities/Objects/Weapons/Guns/Revolvers/revolvers.yml)
 - [`Resources/Prototypes/_WG/Entities/Structures/Storage/Closets/wg_base_structureclosets.yml`](../../../Resources/Prototypes/_WG/Entities/Structures/Storage/Closets/wg_base_structureclosets.yml)
 
 ## Non-modular edits
