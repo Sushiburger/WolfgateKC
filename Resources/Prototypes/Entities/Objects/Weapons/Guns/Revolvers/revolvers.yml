@@ -100,30 +100,6 @@
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
 
-#WOLFGATE(Weapons) START: New revolver for vagrants, the Strix
-- type: entity
-  name: Strix (.357 magnum)
-  parent: BaseWeaponRevolver
-  id: WeaponRevolverStrix
-  description: A robust and simple revolver, still effective even in space. Uses .357 magnum ammo.
-  components:
-  - type: Sprite
-    sprite: _WG/Objects/Weapons/Guns/Revolvers/strix.rsi
-  - type: Clothing
-    sprite: _WG/Objects/Weapons/Guns/Revolvers/strix.rsi
-  - type: RevolverAmmoProvider
-    capacity: 6
-    chambers: [ True, True, True, True, True, True ]
-    ammoSlots: [ null, null, null, null, null, null ]
-  - type: Gun
-    fireRate: 0.75
-    soundGunshot:
-      path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/python_fire.ogg
-      params:
-        volume: 2.25
-    damageModifier: 1.5
-#WOLFGATE END
-
 - type: entity
   name: Mateba (.357 magnum)
   parent: [ BaseWeaponRevolver, BaseFactionGearTSFT1 ]
