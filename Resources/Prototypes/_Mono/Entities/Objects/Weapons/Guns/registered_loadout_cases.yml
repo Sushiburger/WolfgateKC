@@ -314,28 +314,4 @@
       amount: 1
     - id: AmmoBox12_gaugeBuckshot
       amount: 1
-
-- type: entity
-  parent: WeaponCaseLong
-  id: WeaponCaseLongHelepolisRegistered
-  suffix: Loadout, Helepolis
-  components:
-  - type: StorageFill
-    contents:
-    - id: WeaponShotgunHelepolis
-      amount: 1
-    - id: AmmoBox12_gaugeSlug
-      amount: 1
-
-- type: entity
-  parent: WeaponCaseLong
-  id: WeaponCaseLongSawnOffRegistered
-  suffix: Loadout, Sawn Off
-  components:
-  - type: StorageFill
-    contents:
-    - id: WeaponShotgunSawn
-      amount: 1
-    - id: AmmoBox12_gaugeBuckshot
-      amount: 1
 #WOLFGATE END

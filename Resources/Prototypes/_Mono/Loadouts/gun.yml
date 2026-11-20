@@ -465,6 +465,22 @@
     back:
     - WeaponLaserPistolNF
 
+#WOLFGATE(Weapons) START: Giving Vagrants what's in the libertyvend. Sidearms.
+- type: loadout
+  id: MercenaryHelepolisLoadout
+  price: 3000
+  storage:
+    back:
+    - WeaponShotgunHelepolis
+
+- type: loadout #Laser Pistol
+  id: MercenaryLaserPistolLoadout
+  price: 1500
+  storage:
+    back:
+    - WeaponLaserPistolNF
+#WOLFGATE END
+
 # Melee
 
 - type: loadout # Machete

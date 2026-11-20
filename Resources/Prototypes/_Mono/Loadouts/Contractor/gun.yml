@@ -7,10 +7,17 @@
   #- ContractorLaserLoadout
   - ContractorSurvivalKnifeLoadout
   - ContractorDisablerLoadout
-  #- ContractorArgentiLoadout
+  - ContractorArgentiLoadout #WOLFGATE (Weapons): Argentini Available
   - ContractorSvalinnLoadout
-  - ContractorDoubleBarreledLoadout
-  - WGContractorMosinLoadout # WOLFGATE(Weapons)
+  #WOLFGATE(Weapons) START: Vagrant loadouts match what is in the LibertyVend
+  - MercenaryViperLoadout
+  - MercenaryMk58Loadout
+  - MercenaryPollockLoadout
+  - MercenarySawedOffLoadout
+  - MercenaryHelepolisLoadout
+  - MercenaryLaserPistolLoadout
+  - # WOLFGATE(Weapons)
+  #WOLFGATE END
   fallbacks:
   - ContractorMk32Loadout
 
