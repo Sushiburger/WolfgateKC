@@ -245,18 +245,6 @@
 
 - type: entity
   parent: WeaponCaseLong
-  id: WeaponCaseLongNovaliteRegistered
-  suffix: Loadout, Novalite
-  components:
-  - type: StorageFill
-    contents:
-    - id: WeaponRifleNovaliteC1
-      amount: 1
-    - id: MagazineNovaliteC1
-      amount: 3
-
-- type: entity
-  parent: WeaponCaseLong
   id: WeaponCaseLongGestioRegistered
   suffix: Loadout, Gestio
   components:
