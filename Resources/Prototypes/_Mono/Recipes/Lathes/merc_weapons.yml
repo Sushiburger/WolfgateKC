@@ -238,7 +238,7 @@
     Steel: 3000
     Plasteel: 2500
     Plastic: 700
-#WOLFGATE(Weapons) START: Strix is craftable through research
+#WOLFGATE(Weapons) START: Strix is craftable through research. Lee Enfield, Keyboard, Energy Gun, Viper and MK32 are craftable.
 - type: latheRecipe
   id: WeaponRevolverStrix
   result: WeaponRevolverStrix
@@ -248,7 +248,73 @@
   - Ballistic
   completetime: 3
   materials:
+    Steel: 2000
+    Plastic: 1200
+    Plasteel: 2400
+
+- type: latheRecipe
+  id: WeaponPistolViper
+  result: WeaponPistolViperPMC
+  categories:
+  - Weapons
+  - Sidearms
+  - Ballistic
+  completetime: 3
+  materials:
     Steel: 1000
     Plastic: 1200
     Plasteel: 1200
+
+- type: latheRecipe
+  id: WeaponPistolMk32
+  result: WeaponPistolMk32
+  categories:
+  - Weapons
+  - Sidearms
+  - Ballistic
+  completetime: 3
+  materials:
+    Steel: 1000
+    Plastic: 1200
+    Plasteel: 1200
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponRifleLeeEnfield
+  result: WeaponRifleLeeEnfield
+  categories:
+  - Rifles
+  - Ballistic
+  - DMRs
+  - Weapons
+  materials:
+    Steel: 2000
+    Plasteel: 1500
+    Plastic: 700
+
+- type: latheRecipe
+  id: WeaponSubMachineGunKeyboard
+  parent: BaseWeaponRecipeLong
+  result: WeaponSubMachineGunTypewriterPMC
+  categories:
+  - SMGs
+  - Ballistic
+  - Weapons
+  materials:
+    Steel: 1500
+    Plasteel: 1200
+    Plastic: 1500
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponEnergyGun
+  result: WeaponEnergyGunPMC
+  categories: # Mono
+  - Weapons
+  - Energy
+  - SMGs
+  materials:
+    Steel: 2000
+    Glass: 800
+    Plastic: 500
 #WOLFGATE END

@@ -92,6 +92,12 @@
   - WeaponRifleSVSUSSP #Mono
   - WeaponSniperMosinUSSP #Mono
   - WeaponSubMachineGunAK220USSP #Mono
+  #WOLFGATE(Weapons) START: LiberationVend weapons made craftable.
+  - WeaponPistolViper
+  - WeaponPistolMk32
+  - WeaponSubMachineGunKeyboard
+  - WeaponRifleLeeEnfield
+  #WOLFGATE END
   ## Cyborg Modules
   - BorgModuleMercenary # mono
 
@@ -195,7 +201,10 @@
   - WeaponRifleAk
   - WeaponShotgunJack
 #Mono end
-  - WeaponRevolverStrix #WOLFGATE(Weapons): Make Strix craftable through research.
+#WOLFGATE(Weapons) START: Make Strix and energy gun craftable through research.
+  - WeaponRevolverStrix
+  - WeaponEnergyGun
+#WOLFGATE END
 
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecatedEmag
