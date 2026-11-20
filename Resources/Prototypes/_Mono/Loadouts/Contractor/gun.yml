@@ -19,7 +19,6 @@
   - MercenaryCombatKnifeLoadout
   - MercenaryKukriKnifeLoadout
   - MercenaryMacheteLoadout
-  - # WOLFGATE(Weapons)
   #WOLFGATE END
   fallbacks:
   - ContractorMk32Loadout
