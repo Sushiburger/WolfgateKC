@@ -48,6 +48,11 @@
 #WOLFGATE(Weapons) START: Adding Novalite mags to the mercfab.
 - type: latheRecipe
   parent: BaseAmmoFMJIntermediateMagazineRecipe
+  id: MagazineNovaliteC1Empty
+  result: MagazineNovaliteC1Empty
+
+- type: latheRecipe
+  parent: BaseAmmoFMJIntermediateMagazineRecipe
   id: MagazineNovaliteC1FMJ
   result: MagazineNovaliteC1
 
