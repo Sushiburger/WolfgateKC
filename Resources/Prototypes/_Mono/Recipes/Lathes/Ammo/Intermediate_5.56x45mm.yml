@@ -45,6 +45,12 @@
   id: Magazine556x45mmRIP
   result: Magazine556x45mmRIP
 
+#WOLFGATE(Weapons) START: Adding Novalite mags to the mercfab.
+- type: latheRecipe
+  parent: BaseAmmoFMJIntermediateMagazineRecipe
+  id: MagazineNovaliteC1
+  result: MagazineNovaliteC1
+
 #Speedloaders
 
 - type: latheRecipe
