@@ -598,6 +598,8 @@ Standalone edits outside `_WG` that serve no module: files with an untagged `WOL
   - gas leak event disabled
   - vent clog event disabled
 - [`Resources/Prototypes/_NF/Guidebook/rules.yml`](../../Resources/Prototypes/_NF/Guidebook/rules.yml): Frontier ruleset is unused, only MonolithRuleset is shown in-game and on Symphony
+- [`Resources/Prototypes/_NF/Recipes/Lathes/misc.yml`](../../Resources/Prototypes/_NF/Recipes/Lathes/misc.yml): Add whistle to mercfab and vend
+- [`Resources/Prototypes/_NF/Recipes/Lathes/Packs/Deprecated/mercenary_techfab.yml`](../../Resources/Prototypes/_NF/Recipes/Lathes/Packs/Deprecated/mercenary_techfab.yml): Add whistle to mercfab and vend
 - [`Resources/Prototypes/_NF/Roles/Jobs/Medical/doc.yml`](../../Resources/Prototypes/_NF/Roles/Jobs/Medical/doc.yml)
   - the Medical department has no roles since Monolith#4807, so count medic time instead
   - the Director of Care boards ships to rescue people like the responders
@@ -610,6 +612,7 @@ Standalone edits outside `_WG` that serve no module: files with an untagged `WOL
 - [`Resources/Prototypes/Atmospherics/gases.yml`](../../Resources/Prototypes/Atmospherics/gases.yml): a tritium is worth the same as frezon or as nitrium, 10 -> 5 (Mono 1\<10)
 - [`Resources/Prototypes/Catalog/Cargo/cargo_atmospherics.yml`](../../Resources/Prototypes/Catalog/Cargo/cargo_atmospherics.yml): bought plasma costs what it is worth as tritium feedstock, 7000 -> 45000 (Mono - Gas sell prices)
 - [`Resources/Prototypes/Catalog/Fills/Crates/engines.yml`](../../Resources/Prototypes/Catalog/Fills/Crates/engines.yml): the IRE rebrand missed this crate
+- [`Resources/Prototypes/Catalog/VendingMachines/Inventories/clothesmate.yml`](../../Resources/Prototypes/Catalog/VendingMachines/Inventories/clothesmate.yml): Add whistle to mercfab and vend
 - [`Resources/Prototypes/Catalog/VendingMachines/Inventories/engivend.yml`](../../Resources/Prototypes/Catalog/VendingMachines/Inventories/engivend.yml): radiation suits buyable from the EngiVend
 - [`Resources/Prototypes/Damage/modifier_sets.yml`](../../Resources/Prototypes/Damage/modifier_sets.yml): restore the licence header removed by Kill Spdx
 - [`Resources/Prototypes/Entities/Clothing/Back/specific.yml`](../../Resources/Prototypes/Entities/Clothing/Back/specific.yml): Frontier hid ClothingBackpack, so it was never a valid chameleon pick and the menu got no state
